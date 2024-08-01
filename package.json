@@ -1,0 +1,11 @@
+{
+	"name": "ts-advanced-types",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:emersondemetrio/ts-advanced-types.git",
+	"author": "Emerson Demetrio <emerson@drivekyte.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "deno run promise.ts"
+	}
+}
