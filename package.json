@@ -6,6 +6,6 @@
 	"author": "Emerson Demetrio <emerson@drivekyte.com>",
 	"license": "MIT",
 	"scripts": {
-		"start": "deno run promise.ts"
+		"promise": "deno run src/promise.ts"
 	}
 }
