@@ -1,3 +1,3 @@
 export type GenericObject = {
-    [key: string]: unknown;
+    [key: string]: number | string | boolean | null | undefined | GenericObject | GenericObject[];
 }

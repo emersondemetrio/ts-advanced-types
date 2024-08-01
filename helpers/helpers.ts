@@ -22,3 +22,6 @@ export const mockRequest: (timeOut?: number) => Promise<GenericObject> = (timeOu
     }, timeOut);
   });
 };
+
+export const prettyPrint = (data: GenericObject | GenericObject[]) =>
+  JSON.stringify(data, null, 4);
